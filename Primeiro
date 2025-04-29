@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1>MUMDO PET</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sonbre.html">Sobre</a>
+        <a href="contato.html">Contado</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>GATOS - Curiosidades</h2>
+            <button onclick="MostrarFotoGato()">Mostrar Curiosidade de Gato</button>
+            <p id="foto-gato"></p>
+
+            <h2>CACHORROS- TOP 10 MAIS LINDOS</h2>
+            <button onclick="mostrarImgemCachorro()">Mostrar Imagem de Cachorro</button>
+            <br><br>
+            <img id="imagem de Cachorro" src="" alt="Cachorro aleatorio" width="300">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;2025 Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
